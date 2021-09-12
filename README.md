@@ -41,6 +41,6 @@ Users should be able to:
 
 Special thanks to my mentors:
 
-- Mihai-Adrian Andrei
-- Arpan Chattopadhyay
-- Ivan Saldaño
+- **Mihai-Adrian Andrei**
+- **Arpan Chattopadhyay**
+- **Ivan Saldaño**

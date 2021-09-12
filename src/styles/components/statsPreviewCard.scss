@@ -26,7 +26,7 @@ main {
 
     @media (min-width: $breakpoint-lg) {
       width: 50%;
-      padding: 70px 110px 70px 70px;
+      padding: 70px 110px 18px 70px;
       border-top-left-radius: 12px;
       border-bottom-right-radius: 0;
       text-align: left;
@@ -41,7 +41,7 @@ main {
       color: $slightly-transparent-white;
 
       @media (min-width: $breakpoint-lg) {
-        padding: 24px 0 52px;
+        padding: 24px 0;
       }
     }
 
@@ -53,6 +53,7 @@ main {
       @media (min-width: $breakpoint-lg) {
         flex-direction: row;
         padding-top: 18px;
+        padding-bottom: 29px;
       }
 
       .companies, .templates, .queries {
