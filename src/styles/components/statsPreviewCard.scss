@@ -1,0 +1,110 @@
+main {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 86px 32px;
+
+
+  @media (min-width: $breakpoint-md) {
+    max-width: 1440px;
+    flex-direction: row;
+    padding: 160px;
+  }
+
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 36px 24px;
+    background-color: $dark-desaturated-blue;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    text-align: center;
+
+
+    @media (min-width: $breakpoint-md) {
+      width: 50%;
+      padding: 70px 110px 70px 70px;
+      border-top-left-radius: 12px;
+      border-bottom-right-radius: 0;
+      text-align: left;
+    }
+
+    h1 {
+      color: $white;
+    }
+
+    .description {
+      padding: 24px 0 38px;
+      color: $slightly-transparent-white;
+
+      @media (min-width: $breakpoint-md) {
+        padding: 24px 0 52px;
+      }
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+
+      @media (min-width: $breakpoint-md) {
+        flex-direction: row;
+        padding-top: 18px;
+      }
+
+      .companies, .templates, .queries {
+        padding: 12px 0;
+
+        @media (min-width: $breakpoint-md) {
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  .right-container {
+    position: relative;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    height: 228px;
+
+    @media (min-width: $breakpoint-md) {
+      border-top-left-radius: 0;
+      border-bottom-right-radius: 12px;
+      width: 50%;
+      height: auto;
+    }
+
+    .overlay {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      right: 0;
+      background-color: #9119bd;
+      opacity: 0.5;
+      border-top-right-radius: 12px;
+      border-top-left-radius: 12px;
+
+      @media (min-width: $breakpoint-md) {
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 12px;
+      }
+    }
+
+    &__image {
+      background-image: url('~@/images/image-header-mobile.jpg');
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      border-top-right-radius: 12px;
+      border-top-left-radius: 12px;
+
+      @media (min-width: $breakpoint-md) {
+        background-image: url('~@/images/image-header-desktop.jpg');
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 12px;
+      }
+    }
+  }
+}

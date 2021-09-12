@@ -1,25 +1,46 @@
-# vue-eslint-prettier-scss-boilerplate
+# Frontend Mentor - Stats preview card component solution
 
+This is a solution to
+the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
+. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Project setup
-```
-npm install
-```
+## Overview
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### The challenge
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Users should be able to:
 
-### Lints and fixes files
-```
-npm run lint
-```
+- View the optimal layout depending on their device's screen size
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Screenshot
+
+![](./src/screenshot.jpg)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [VueJs](https://vuejs.org/) - JS library
+- [SCSS](https://sass-lang.com/) - For styles
+
+## Author
+
+- Website - [Catalin Gheorghiu](https://github.com/CatalinGheorghiu)
+- Frontend Mentor - [@CatalinGheorghiu](https://www.frontendmentor.io/profile/CatalinGheorghiu)
+
+## Acknowledgments
+
+Special thanks to my mentors:
+
+- Mihai-Adrian Andrei
+- Arpan Chattopadhyay
+- Ivan Saldaño

@@ -1,8 +1,28 @@
-// Colors
-$color-light-purple: #e3e3;
+/*
+** Colors
+*/
+
+// Primary
+$very-dark-blue: hsl(233, 47%, 7%); // main background
+$dark-desaturated-blue: hsl(244, 38%, 16%); // card background
+$soft-violet: hsl(277, 64%, 61%); // accent
+
+// Neutral
+
+$white: hsl(0, 0%, 100%); // main heading, stats
+$slightly-transparent-white: hsla(0, 0%, 100%, 0.75); // main paragraph
+$slightly-transparent-white: hsla(0, 0%, 100%, 0.6); // stat headings
 
 $breakpoint-md: 768px; // tablets
 $breakpoint-max-lg: 959px; // desktop
 $breakpoint-lg: 960px; // desktop
 $breakpoint-max-xlg: 1439px; // HD
 $breakpoint-xlg: 1440px; // HD
+
+
+/*
+** Fonts
+*/
+
+$font-primary: 'Lexend Deca';
+$font-secondary: 'Inter';
